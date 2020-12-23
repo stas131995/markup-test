@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- <div id="ajax"></div>
+    <script>
+      function onTitleChange(e) {
+        render(e.target.value);
+      }
+
+
+      function render(title = "", description = "") {
+        const dom = document.getElementById("ajax");
+
+        dom.innerHTML = `
+          <h1>${title}</h1>
+          <input type="text" oninput="onTitleChange(event)" value="${title}" /><br />
+          <input type="text" value="${description}" /><br />
+          <button onclick="onButtonClick()">Save</button>
+        `;
+      }
+
+      const title = "Hello";
+
+      render(title);
+
+      fetch("https://google.com").then(() => {
+        render("Server title");
+
+      });
+    </script> -->
+    <div class="header">
+        <a class="header__link" href="#">ART FACTORY</a>
+        <nav class="header__nav">
+          <a href="#" class="nav__link nav__link--active">HOME</a>
+          <a href="#" class="nav__link">ABOUT</a>
+          <a href="#" class="nav__link">SERVICES</a>
+          <a href="#" class="nav__link">FREQUENTLY QUESTIONS</a>
+          <a href="#" class="nav__link">DROP DOWN</a>
+          <a href="#" class="nav__link">CONTACT US</a>
+        </nav>
+    </div>
+    <div class="content">
+      <div class="content__text">
+        <h1 class="content__h1">Art Factory is free<br><b>for YOU</b></h1>
+        <p class="content__h2">This template is available for 100% free of charge on TemplateMo. Download, modify and use this for your business website.</p>
+        <button class="content__button" type="button">FIND OUT MORE</button>
+      </div>
+      <img src="assets/images/slider-icon.png" class="content__image">
+    </div>
+  </body>
+</html>
